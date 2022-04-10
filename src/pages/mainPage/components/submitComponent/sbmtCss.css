@@ -1,11 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&display=swap');
+
+
+
 .image-div > img{
-    width: 35vw;
-    height: auto;
+    width: 41vw;
+    height: 90.2vh;
 }
 .main-sbmt-component {
-        width: 100%;
-        height: 80vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 13vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-div > p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.text-div > h1{
+    font-family: 'Elsie Swash Caps', cursive;
+    font-weight: 900;
+    font-size: 7rem;
+}
+.button-input-submit{
+    margin-top: 2rem;
+}
+.button-input-submit > input{
+    width: 15vw;
+    height: 5vh;
+    background-color: #fff;
+    box-shadow: 0px 20px 40px 20px #0000000F;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.button-input-submit > button{
+    background-color: #FFCB47;
+    color: #fff;
+    width: 10vw;
+    height: 5vh;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.button-input-submit>input:focus{
+    outline: 0;
+    border: 0 none;
 }
